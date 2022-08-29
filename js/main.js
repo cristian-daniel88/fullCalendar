@@ -30,6 +30,15 @@ document.addEventListener('DOMContentLoaded', function() {
     //   dateClick: function(info) { 
     //     alert(info.dateStr);  
     //   },
+    // right: "dayGridMonth,timeGridWeek,timeGridDay"
+    
+    headerToolbar: {
+        left: "today prev next",
+        center: "title",
+        right: "dayGridMonth timeGridWeek"
+    },
+  
+
       events: arrayExample
     });
     calendar.render();
